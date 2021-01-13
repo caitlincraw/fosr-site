@@ -1,5 +1,7 @@
 # Friends of Stringer's Ridge
 
+![FOSR-logo](https://user-images.githubusercontent.com/67700253/104483752-774e2f00-5596-11eb-843e-6d8cd64ad6a5.jpeg)
+
 ### Built with React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
