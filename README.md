@@ -2,3 +2,11 @@
 
 ### Built with React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+### TODO
+- Navbar with About the Park (Amenities and History), Get Involved (Volunteer and Contact), What's Happening (News and Events), Report a Problem, About Us (Board and Partnerships)
+  - Each nav item is a dropdown 
+  - Use react-router for pages
+- Footer with social media handles, volunteer/newsletter signup, and contact us form 
+- Include interactive web map on the Report a Problem page, like "311" maps 
+  - Leaflet might be the best option. Get park boundary and existing trails from OpenData.
