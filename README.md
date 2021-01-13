@@ -12,3 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Footer with social media handles, volunteer/newsletter signup, and contact us form 
 - Include interactive web map on the Report a Problem page, like "311" maps 
   - Leaflet might be the best option. Get park boundary and existing trails from OpenData.
+  
+## Examples 
+
+https://www.warnerparks.org/where-to-explore/hiking
