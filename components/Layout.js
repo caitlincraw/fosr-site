@@ -11,11 +11,40 @@ export default function Layout({children}) {
                 <Link href="/volunteer"><button className={styles.volBtn}>BECOME A VOLUNTEER</button></Link>
             </div>
             <div className={styles.bottomNav}>
-                <button>About the Park</button>
-                <button>Get Involved</button>
-                <button>What's Happening</button>
-                <button>About Us</button>
-                <button>Report a Problem</button>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropBtn}>About the Park</button>
+                    <div className={styles.dropContent}>
+                        <Link href="/history"><a>History of the Park</a></Link>
+                        <Link href="/amenities"><a>Park Amenities</a></Link>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropBtn}>Get Involved</button>
+                    <div className={styles.dropContent}>
+                        <Link href="/volunteer"><a>Volunteer</a></Link>
+                        <Link href="/contact"><a>Contact Us</a></Link>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropBtn}>What's Happening</button>
+                    <div className={styles.dropContent}>
+                        <Link href="/news"><a>Park News</a></Link>
+                        <Link href="/events"><a>Upcoming Events</a></Link>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropBtn}>About Us</button>
+                    <div className={styles.dropContent}>
+                        <Link href="/board"><a>Meet the Board</a></Link>
+                        <Link href="/partnerships"><a>Park Partnerships</a></Link>
+                    </div>
+                </div>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropBtn}>Report a Problem</button>
+                    <div className={styles.dropContent}>
+                        <Link href="/map"><a>Interactive Map</a></Link>
+                    </div>
+                </div>
             </div>
         </nav>
 
