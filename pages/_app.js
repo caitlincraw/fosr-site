@@ -7,7 +7,8 @@ function MyApp({ Component, pageProps }) {
     <Layout>
         <Head>
         <link rel="shortcut icon" href="./favicon.ico" />
-        <title>Friends of Stringers Ridge</title>
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet"></link>
+        <title>Friends of Stringer's Ridge</title>
         </Head>
         <Component {...pageProps} />
     </Layout>
