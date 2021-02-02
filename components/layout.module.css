@@ -163,7 +163,8 @@
     text-align: right;
     margin: 0;
     padding: 0.1rem 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: bold;
     border-bottom: 2px solid #89a641;
     border-top: 2px solid #89a641;
 
@@ -175,6 +176,7 @@
     color: white;
     text-align: right;
     padding: 0.25rem 0;
+    font-size: 0.8rem;
 }
 
 .centerFoot {
