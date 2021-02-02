@@ -1,8 +1,6 @@
-import utilStyles from '../styles/utils.module.css';
-
 export default function Home() {
   return (
-      <main className={utilStyles.main}>
+      <main>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ex eget mi auctor ultricies. Nulla dignissim, urna vel viverra pellentesque, mauris lorem pharetra augue, at rutrum sem velit id massa. Cras efficitur commodo fringilla. Suspendisse ultricies risus volutpat eros maximus, a viverra magna porttitor. Aliquam erat volutpat. Aenean at pretium lacus, at luctus libero. Nulla at lacinia erat, vitae congue quam. Aenean a elit id mi commodo interdum sit amet sit amet justo. Cras in mi lectus. Etiam commodo tellus sed sapien laoreet, eu tincidunt ligula interdum. Donec a nibh mauris. Pellentesque et est eget nunc sodales congue.
 
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ut velit consectetur, tincidunt elit vitae, aliquet nisi. Nulla tristique dictum arcu, eu porttitor velit porttitor et. Aenean convallis semper ipsum consequat rhoncus. Nullam sed feugiat quam. Sed pellentesque lorem vel lorem laoreet, eget posuere leo efficitur. Sed nec imperdiet felis. Integer nec varius diam. Quisque tempor, neque id fermentum vulputate, enim diam eleifend erat, eget posuere nisl erat porta risus. Morbi nec gravida nunc. Curabitur eu euismod dolor, quis ornare mi. Ut nec bibendum elit, quis dignissim mi. Nullam eget tellus volutpat, dignissim diam a, condimentum dui. Nullam dapibus luctus nisi, non lacinia justo tristique ac. Integer ut dignissim nunc.
