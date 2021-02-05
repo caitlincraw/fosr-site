@@ -1,0 +1,19 @@
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img {
+    margin-bottom: 0.5rem;
+    border: 4px solid #89a641;
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    background-color: white;
+}
+
+.logoContainer p {
+    margin: 0;
+}

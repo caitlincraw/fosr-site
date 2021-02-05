@@ -1,0 +1,37 @@
+.navsContainer {
+    display: flex;
+}
+
+.navGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    text-align: right;
+}
+
+.navGroup h6 {
+    margin: 0;
+    padding: 0.1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 2px solid #89a641;
+    border-top: 2px solid #89a641;
+
+}
+
+.navGroup a {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 500px){
+    .navGroup {
+        text-align: left;
+    }
+    .navsContainer {
+        padding: 1rem;
+    }
+}
