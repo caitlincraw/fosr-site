@@ -12,18 +12,13 @@
     background: none;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-  
 .dropContent {
     display: none;
     position: absolute;
     background-color: #e6e6e6;
     min-width: 9rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 999;
 }
   
 .dropContent a {
@@ -44,4 +39,10 @@
   
 .dropdown:hover .dropBtn {
     color: #2c4508;
+}
+
+@media (max-width: 500px){
+    .navsContainer {
+        flex-direction: column;
+    }
 }
