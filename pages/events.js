@@ -1,7 +1,8 @@
 export default function Events() {
     return (
         <main>
-          This is the events page
+            <h1>Upcoming Events</h1>
+            <p>This is the events page</p>
         </main>
     )
   }

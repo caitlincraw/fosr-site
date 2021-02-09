@@ -1,7 +1,8 @@
 export default function Map() {
     return (
         <main>
-          This is the map page
+            <h1>Report a Problem</h1>
+            <p>This is the map page</p>
         </main>
     )
   }

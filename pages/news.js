@@ -1,7 +1,8 @@
 export default function News() {
     return (
         <main>
-          This is the news page
+            <h1>News</h1>
+            <p>This is the news page</p>
         </main>
     )
   }
