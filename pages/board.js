@@ -1,31 +1,18 @@
+import Member from '../components/Member/Member'
+import styles from './styles/board.module.css'
+
 export default function Board() {
     return (
         <main>
           <h1>The Board</h1>
-            <div>
-                <h3>President</h3>
-                <p>TBD</p>
-            </div>
-            <div>
-                <h3>Vice President</h3>
-                <p>TBD</p>
-            </div>
-            <div>
-                <h3>Treasurer</h3>
-                <p>TBD</p>
-            </div>
-            <div>
-                <h3>Secretary</h3>
-                <p>TBD</p>
-            </div>
-            <div>
-                <h3>Social Media and Outreach</h3>
-                <p>TBD</p>
-            </div>
-            <div>
-                <h3>Voluteer Coordinator</h3>
-                <p>TBD</p>
-            </div>
+          <div className={ styles.container }>
+            <Member headshot="images/headshot-placeholder.png" title="President" name="TBD" bio="TBD" />
+            <Member headshot="images/headshot-placeholder.png" title="Vice President" name="TBD" bio="TBD" />
+            <Member headshot="images/headshot-placeholder.png" title="Treasurer" name="TBD" bio="TBD" />
+            <Member headshot="images/headshot-placeholder.png" title="Secretary" name="TBD" bio="TBD" />
+            <Member headshot="images/headshot-placeholder.png" title="Social Media and Website" name="TBD" bio="TBD" />
+            <Member headshot="images/headshot-placeholder.png" title="Volunteer Coordinator" name="TBD" bio="TBD" />
+          </div>
         </main>
     )
   }

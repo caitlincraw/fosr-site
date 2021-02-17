@@ -1,0 +1,74 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    outline: none;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    width: 12rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.form textarea {
+    outline: none;
+    height: 100%;
+    width: 12rem;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.formItems {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 500px){
+    .formItems {
+        flex-direction: column;
+    }
+
+    .form textarea {
+        height: 6rem;
+    }
+}
+
+.contact, .message {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.note {
+    font-size: 0.5rem;
+}
+
+.submitBtn {
+    width: 10rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c4508;
+    color: white;
+    padding: 0.75rem;
+}
+
+.checkbox p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.checkbox input {
+    width: auto;
+    cursor: pointer;
+}
+
+.checkbox label {
+    font-size: 0.8rem;
+}
