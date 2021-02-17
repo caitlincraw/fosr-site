@@ -1,9 +1,10 @@
 import ContactForm from '../components/Forms/ContactForm'
+import PageHeader from '../components/PageHeader/PageHeader'
 
 export default function Contact() {
     return (
         <main>
-            <h1>Contact Us</h1>
+            <PageHeader title="CONTACT US" />
             <ContactForm />
         </main>
     )

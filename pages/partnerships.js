@@ -1,10 +1,11 @@
 import Partnership from '../components/Partnership/Partnership'
 import styles from './styles/partnerships.module.css'
+import PageHeader from '../components/PageHeader/PageHeader'
 
 export default function Partnerships() {
     return (
         <main>
-          <h1>Partnerships</h1>
+          <PageHeader title="PARK PARTNERSHIPS" />
           <div className={ styles.container }>
             <Partnership site="http://www.chattanooga.gov/parks" logo="images/cityofchattlogo.png" alt="City of Chattanooga Logo" />
             <Partnership site="https://www.trgt.org/stringers" logo="images/trgtlogo.png" alt="Tennessee River Gorge Trust (TRGT) Logo" />

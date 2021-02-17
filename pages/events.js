@@ -1,7 +1,9 @@
+import PageHeader from '../components/PageHeader/PageHeader'
+
 export default function Events() {
     return (
         <main>
-            <h1>Upcoming Events</h1>
+            <PageHeader title="UPCOMING EVENTS" />
             <p>This is the events page</p>
         </main>
     )

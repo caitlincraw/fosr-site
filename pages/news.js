@@ -1,7 +1,9 @@
+import PageHeader from '../components/PageHeader/PageHeader'
+
 export default function News() {
     return (
         <main>
-            <h1>News</h1>
+            <PageHeader title="NEWS" />
             <p>This is the news page</p>
         </main>
     )

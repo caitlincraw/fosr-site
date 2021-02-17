@@ -1,7 +1,9 @@
+import PageHeader from '../components/PageHeader/PageHeader'
+
 export default function Map() {
     return (
         <main>
-            <h1>Report a Problem</h1>
+            <PageHeader title="REPORT A PROBLEM" />
             <p>This is the map page</p>
         </main>
     )

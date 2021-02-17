@@ -1,9 +1,10 @@
 import VolunteerForm from '../components/Forms/VolunteerForm'
+import PageHeader from '../components/PageHeader/PageHeader'
 
 export default function Volunteer() {
   return (
       <main>
-        <h1>Become a Volunteer</h1>
+        <PageHeader title="BECOME A VOLUNTEER" />
         <VolunteerForm />
       </main>
   )
