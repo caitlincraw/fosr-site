@@ -1,5 +1,5 @@
 import Member from '../components/Member/Member'
-import styles from './styles/board.module.css'
+import styles from '../styles/board.module.css'
 import PageHeader from '../components/PageHeader/PageHeader'
 
 

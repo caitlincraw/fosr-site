@@ -1,5 +1,5 @@
 import Partnership from '../components/Partnership/Partnership'
-import styles from './styles/partnerships.module.css'
+import styles from '../styles/partnerships.module.css'
 import PageHeader from '../components/PageHeader/PageHeader'
 
 export default function Partnerships() {
