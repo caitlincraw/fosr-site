@@ -1,9 +1,33 @@
 import styles from './Forms.module.css'
+import { useState } from 'react'
+import axios from 'axios'
 
 export const VolunteerForm = () => {
+    const [status, setStatus] = useState("")
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const form = e.target
+        const data = new FormData(form)
+        axios({
+            url: 'https://formspree.io/f/xleovvwk',
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json'
+            },
+            data: data
+        })
+        .then(() => { 
+            setStatus("SUCCESS")
+            form.reset()
+        })
+        .catch(() => {
+            setStatus("ERROR")
+        })
+
+    }
     return (
-        <form action="https://formspree.io/f/xleovvwk" method="POST" className={styles.form}>
+        <form action="https://formspree.io/f/xleovvwk" method="POST" className={styles.form} onSubmit={handleSubmit}>
             <div className={styles.formItems}>
                 <div className={styles.contact}>
                     <label>NAME</label>
@@ -12,7 +36,7 @@ export const VolunteerForm = () => {
                     <input type="email" name="email" />
                 </div>
                 <div className={styles.checkbox}>
-                    <p>Please select all Volunteer Work that interests you!</p>
+                    <p>Please select all volunteer work that interests you!</p>
                     <input type="checkbox" id="vol1" name="vol1" value="physical" />
                     <label htmlFor="vol11"> PHYSICAL WORK AND CONSERVATION </label>
                     <br />
@@ -27,7 +51,8 @@ export const VolunteerForm = () => {
                 </div>
             </div>
             <p className={styles.note}>By pressing submit, you agree to be contacted by Friends of Stringer's Ridge when volunteer work is needed.</p>
-            <button className={styles.submitBtn}>SUBMIT</button>
+            {status === "SUCCESS" ? <p>Thanks for expressing interest in volunteering. We have added you to our volunteer database and will reach out when help is needed!</p> : <button className={styles.submitBtn}>SEND MESSAGE</button>}
+            {status === "ERROR" && <p>Oh no, there was an error when submitting. Please refresh the page and try again!</p>}
         </form>
     )
 }

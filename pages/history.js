@@ -7,4 +7,4 @@ export default function History() {
             <p>This is the history page</p>
         </main>
     )
-  }
+}
